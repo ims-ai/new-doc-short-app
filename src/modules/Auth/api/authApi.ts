@@ -19,12 +19,28 @@ import {
  * `/insured/session` on boot. Setting it does NOT grant auth (the HttpOnly
  * token still does); clearing it does NOT sign the user out (the backend
  * cookie remains until logout).
+ *
+ * Must be a **persistent** cookie (`Max-Age`), not a session cookie: the
+ * real access/refresh cookies the backend sets carry `Max-Age` (`ins`
+ * `AuthCookieHelper`) and survive closing the browser. A session-only hint
+ * cookie would not, so the next launch would skip `/insured/session`
+ * entirely and the user would be bounced to sign-in despite still having a
+ * valid backend session. `maxAgeSeconds` should be the response's
+ * `refreshTokenExpirationTime` so the hint tracks the real refresh-token
+ * lifetime (including the sliding window on every silent refresh); the
+ * fallback below only covers a response that omits it.
  */
 const AUTH_HINT = "q2b_auth";
+/** Matches `ins`'s `security.refreshTokenValidity` default (15 days). */
+const AUTH_HINT_FALLBACK_MAX_AGE_SECONDS = 1_296_000;
 
-export const setAuthHint = (): void => {
+export const setAuthHint = (maxAgeSeconds?: number): void => {
   try {
-    document.cookie = `${AUTH_HINT}=1; path=/; SameSite=Lax`;
+    const maxAge =
+      typeof maxAgeSeconds === "number" && maxAgeSeconds > 0
+        ? Math.floor(maxAgeSeconds)
+        : AUTH_HINT_FALLBACK_MAX_AGE_SECONDS;
+    document.cookie = `${AUTH_HINT}=1; path=/; max-age=${maxAge}; SameSite=Lax`;
   } catch {
     /* */
   }
@@ -57,8 +73,9 @@ export const postSignIn = async (
       new InsuredLoginRequest({ username: username.trim(), password }),
       { withCredentials: true },
     );
-    setAuthHint();
-    return new InsuredAuthSessionResponse(response.data);
+    const session = new InsuredAuthSessionResponse(response.data);
+    setAuthHint(session.refreshTokenExpirationTime);
+    return session;
   } catch (error) {
     logApiError(error);
     throw error;
@@ -78,8 +95,9 @@ export const postSignInWithGoogle = async (
       new GoogleTokenRequest({ googletoken: idToken }),
       { withCredentials: true },
     );
-    setAuthHint();
-    return new InsuredAuthSessionResponse(response.data);
+    const session = new InsuredAuthSessionResponse(response.data);
+    setAuthHint(session.refreshTokenExpirationTime);
+    return session;
   } catch (error) {
     logApiError(error);
     throw error;
@@ -113,8 +131,9 @@ export const postSignInWithGoogleData = async (idToken: string): Promise<GoogleD
 export const postInsuredSignup = async (payload: unknown): Promise<InsuredAuthToken> => {
   try {
     const response = await axios.post(apiUrl("/auth/signup"), payload, { withCredentials: true });
-    setAuthHint();
-    return new InsuredAuthToken(response.data);
+    const token = new InsuredAuthToken(response.data);
+    setAuthHint(token.refreshTokenExpirationTime);
+    return token;
   } catch (error) {
     logApiError(error);
     throw error;

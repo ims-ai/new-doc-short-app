@@ -1,6 +1,6 @@
 import axios, { type AxiosError, type AxiosRequestConfig, type AxiosResponse } from "axios";
 import { apiUrl } from "./config";
-import { clearAuthHint } from "@/modules/Auth/api/authApi";
+import { clearAuthHint, setAuthHint } from "@/modules/Auth/api/authApi";
 
 /** A minimal SPA navigate function — structurally satisfied by react-router's `NavigateFunction`. */
 type AuthNavigator = (to: string, opts?: { replace?: boolean }) => void;
@@ -56,6 +56,15 @@ const refreshAccessToken = () => {
     .post(REFRESH_URL, null, {
       withCredentials: true,
       timeout: REFRESH_TIMEOUT_MS,
+    })
+    .then((response) => {
+      // The backend rotates the refresh cookie on every silent refresh
+      // (fresh Max-Age from `security.refreshTokenValidity`) — slide the
+      // hint cookie's Max-Age along with it so a browser reopened long
+      // after sign-in (but with a session kept alive by regular use) still
+      // carries a hint that outlives the real cookie.
+      setAuthHint(response.data?.refreshTokenExpirationTime);
+      return response;
     })
     .finally(() => {
       refreshPromise = null;
