@@ -1,0 +1,1747 @@
+[
+  {
+    "id": 100,
+    "groupName": "About your practice",
+    "displayOrder": 1,
+    "questions": [
+      {
+        "id": 278,
+        "questionText": "Do you perform any procedures you did not receive training in your residency or that are outside the customary scope of practice for your specialty?",
+        "questionDescription": null,
+        "displayOrder": 1,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 533,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["285"]
+          },
+          {
+            "id": 534,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 279,
+        "questionText": "Do you perform bariatric surgery?",
+        "questionDescription": null,
+        "displayOrder": 2,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 535,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["285"]
+          },
+          {
+            "id": 536,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 280,
+        "questionText": "Do you operate on the spine?",
+        "questionDescription": null,
+        "displayOrder": 3,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 537,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["285"]
+          },
+          {
+            "id": 538,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 281,
+        "questionText": "Do you perform deliveries?",
+        "questionDescription": null,
+        "displayOrder": 4,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 539,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["285"]
+          },
+          {
+            "id": 540,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 282,
+        "questionText": "Do you perform general surgery?",
+        "questionDescription": null,
+        "displayOrder": 5,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 541,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["285"]
+          },
+          {
+            "id": 542,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 283,
+        "questionText": "Do you operate on the brain?",
+        "questionDescription": null,
+        "displayOrder": 6,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 543,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["285"]
+          },
+          {
+            "id": 544,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 285,
+        "questionText": "Please explain",
+        "questionDescription": null,
+        "displayOrder": 7,
+        "questionType": "TEXTBOX",
+        "isRequired": false,
+        "options": [
+          {
+            "id": 546,
+            "optionLabel": "Please provide details, if applicable",
+            "optionValue": "",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "groupName": "License, Scope & Practice",
+    "displayOrder": 2,
+    "questions": [
+      {
+        "id": 284,
+        "questionText": "Please check all procedures that you perform",
+        "questionDescription": null,
+        "displayOrder": 1,
+        "questionType": "CHECKBOX",
+        "isRequired": false,
+        "options": [
+          {
+            "id": 545,
+            "optionLabel": "Abortion",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 547,
+            "optionLabel": "Adenoidectomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 548,
+            "optionLabel": "Anal Fistulectomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 3,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 549,
+            "optionLabel": "Analgesia, IV Conscious Sedation",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 4,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 550,
+            "optionLabel": "Anesthesia",
+            "optionValue": "true",
+            "optionDescription": "(Spinal)",
+            "displayOrder": 5,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 551,
+            "optionLabel": "Appendectomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 6,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 552,
+            "optionLabel": "Cesarean Section Delivery",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 7,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 553,
+            "optionLabel": "Cholecystectomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 8,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 554,
+            "optionLabel": "Circumcision (adult)",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 9,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 555,
+            "optionLabel": "Circumcision (Pediatric)",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 10,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 556,
+            "optionLabel": "Closed Reduction",
+            "optionValue": "true",
+            "optionDescription": "(other than simple)",
+            "displayOrder": 11,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 557,
+            "optionLabel": "Colonoscopy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 12,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 558,
+            "optionLabel": "Cryotherapy and LEEPs",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 13,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 559,
+            "optionLabel": "Culdocentesis",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 14,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 560,
+            "optionLabel": "Dilation and Curettage",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 15,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 561,
+            "optionLabel": "Elective Cardioversion",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 16,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 562,
+            "optionLabel": "Endometrial Biopsy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 17,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 563,
+            "optionLabel": "Endoscopic Procedures",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 18,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 564,
+            "optionLabel": "Hemorrhoidectomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 19,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 565,
+            "optionLabel": "Hydrocelectomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 20,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 566,
+            "optionLabel": "Hysterectomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 21,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 567,
+            "optionLabel": "Laparoscopy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 22,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 568,
+            "optionLabel": "Myringotomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 23,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 569,
+            "optionLabel": "Nasal Polypectomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 24,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 570,
+            "optionLabel": "Normal Vaginal Delivery",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 25,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 571,
+            "optionLabel": "Oophorectomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 26,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 572,
+            "optionLabel": "Orchiectomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 27,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 573,
+            "optionLabel": "Prenatal & Postnatal Care",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 28,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 574,
+            "optionLabel": "Salpingectomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 29,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 575,
+            "optionLabel": "Tendon Repair",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 30,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 576,
+            "optionLabel": "Therapeutic Abortion",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 31,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 577,
+            "optionLabel": "Tonsillectomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 32,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 578,
+            "optionLabel": "Tubal Ligation",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 33,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 579,
+            "optionLabel": "Vasectomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 34,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 580,
+            "optionLabel": "VBAC",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 35,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 581,
+            "optionLabel": "Vein Stripping",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 36,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 582,
+            "optionLabel": "Weight Loss",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 37,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 583,
+            "optionLabel": "Other",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 38,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["286"]
+          }
+        ]
+      },
+      {
+        "id": 287,
+        "questionText": "Cardiology",
+        "questionDescription": null,
+        "displayOrder": 2,
+        "questionType": "CHECKBOX",
+        "isRequired": false,
+        "options": [
+          {
+            "id": 585,
+            "optionLabel": "Cardiac Catheterization",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 586,
+            "optionLabel": "Coronary Angiography",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 587,
+            "optionLabel": "Coronary Angioplasty/Stent",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 3,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 588,
+            "optionLabel": "Other",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 4,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["286"]
+          }
+        ]
+      },
+      {
+        "id": 288,
+        "questionText": "Cosmetic/Plastic Surgery",
+        "questionDescription": null,
+        "displayOrder": 3,
+        "questionType": "CHECKBOX",
+        "isRequired": false,
+        "options": [
+          {
+            "id": 589,
+            "optionLabel": "Abdominoplasty",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 590,
+            "optionLabel": "Blepharoplasty",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 591,
+            "optionLabel": "Coronal",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 3,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 592,
+            "optionLabel": "Hair Implant",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 4,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 593,
+            "optionLabel": "Liposuction",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 5,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 594,
+            "optionLabel": "Penile-Related Cosmetic Procedures",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 6,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 595,
+            "optionLabel": "Vaginal-Related Cosmetic Procedures",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 7,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 596,
+            "optionLabel": "Autologous Fat Injection",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 8,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 597,
+            "optionLabel": "Breast Augmentation",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 9,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 598,
+            "optionLabel": "Endoscopic-Assisted Forehead Lift",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 10,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 599,
+            "optionLabel": "Implants other than Breast",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 11,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 600,
+            "optionLabel": "Rhinoplasty (Cosmetic)",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 12,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 601,
+            "optionLabel": "Rhinoplasty (Functional Only)",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 13,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 602,
+            "optionLabel": "Thermage",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 14,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 603,
+            "optionLabel": "Breast Reduction",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 15,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 604,
+            "optionLabel": "Facial Laser Resurfacing",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 16,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 605,
+            "optionLabel": "“Lifestyle” Lift",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 17,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 606,
+            "optionLabel": "Rhytidectomy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 18,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 607,
+            "optionLabel": "Sex Reassignment Surgery",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 19,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 608,
+            "optionLabel": "Other",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 20,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["286"]
+          }
+        ]
+      },
+      {
+        "id": 289,
+        "questionText": "Pain Management",
+        "questionDescription": null,
+        "displayOrder": 4,
+        "questionType": "CHECKBOX",
+        "isRequired": false,
+        "options": [
+          {
+            "id": 609,
+            "optionLabel": "Block (Spine and non-spine)",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 610,
+            "optionLabel": "Epidural or Spinal Catheter",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 611,
+            "optionLabel": "Myofascial Trigger Point Injections",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 3,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 612,
+            "optionLabel": "Rapid Detoxification",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 4,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 613,
+            "optionLabel": "Spinal Stimulation Implant",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 5,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 614,
+            "optionLabel": "Cryoanalgesia",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 6,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 615,
+            "optionLabel": "Intra-Articular Block (joint injection)",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 7,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 616,
+            "optionLabel": "Nerve Root Injections",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 8,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 617,
+            "optionLabel": "Spinal Infusion Implant",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 9,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 618,
+            "optionLabel": "Spinal Stimulation Programming",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 10,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 619,
+            "optionLabel": "Dorsal Column Stimulator Implant",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 11,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 620,
+            "optionLabel": "Intradiscal Electrothermal Therapy",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 12,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 621,
+            "optionLabel": "Radio Frequency Neve Ablation",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 13,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 622,
+            "optionLabel": "Spinal Infusion Pump",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 14,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 623,
+            "optionLabel": "Stellate Ganglion Block",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 15,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 624,
+            "optionLabel": "Kyphoplasty",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 16,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 625,
+            "optionLabel": "Vertebroplasty",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 17,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 626,
+            "optionLabel": "M.I.L.D.",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 18,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          },
+          {
+            "id": 627,
+            "optionLabel": "Other",
+            "optionValue": "true",
+            "optionDescription": null,
+            "displayOrder": 19,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["286"]
+          }
+        ]
+      },
+      {
+        "id": 286,
+        "questionText": "Please list",
+        "questionDescription": null,
+        "displayOrder": 5,
+        "questionType": "TEXTBOX",
+        "isRequired": false,
+        "options": [
+          {
+            "id": 584,
+            "optionLabel": "Please list",
+            "optionValue": "",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "groupName": "Underwriting questions",
+    "displayOrder": 3,
+    "questions": [
+      {
+        "id": 264,
+        "questionText": "Are you involved or do you participate in any clinical research trials?",
+        "questionDescription": null,
+        "displayOrder": 1,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 506,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": true,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["277"]
+          },
+          {
+            "id": 507,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 265,
+        "questionText": "Do you provide services at any nursing home, assisted living, or correctional facility?",
+        "questionDescription": null,
+        "displayOrder": 2,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 508,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": true,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["277"]
+          },
+          {
+            "id": 509,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 266,
+        "questionText": "Are you now being or have you ever been evaluated for, diagnosed with, or treated for alcohol, narcotics, or any other substance abuse, sexual addiction, anger management issues, or any mental illness?",
+        "questionDescription": null,
+        "displayOrder": 3,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 510,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": true,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["277"]
+          },
+          {
+            "id": 511,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 267,
+        "questionText": "Are you aware of any chronic illness or physical defect that impairs or could impair your ability to practice your specialty?",
+        "questionDescription": null,
+        "displayOrder": 4,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 512,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": true,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["277"]
+          },
+          {
+            "id": 513,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 268,
+        "questionText": "Have you ever had professional liability insurance declined, nonrenewed, canceled, or restricted, or have you had an involuntary deductible or surcharge assessed against you?",
+        "questionDescription": null,
+        "displayOrder": 5,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 514,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": true,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["277"]
+          },
+          {
+            "id": 515,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 269,
+        "questionText": "Have you ever appeared before, been investigated by, entered into any consent agreement with, or do you have any investigations currently in progress or pending by any state licensing board, board of medical examiners, DEA, or other governmental agency?",
+        "questionDescription": null,
+        "displayOrder": 6,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 516,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": true,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["277"]
+          },
+          {
+            "id": 517,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 270,
+        "questionText": "Has your license to practice or your DEA/narcotics license ever been denied, revoked, suspended, placed on probation, or limited in any way?",
+        "questionDescription": null,
+        "displayOrder": 7,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 518,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": true,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["277"]
+          },
+          {
+            "id": 519,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 271,
+        "questionText": "Have you ever been arrested, indicted, plead guilty to, or been convicted of any crime other than minor traffic violations?",
+        "questionDescription": null,
+        "displayOrder": 8,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 520,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": true,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["277"]
+          },
+          {
+            "id": 521,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 272,
+        "questionText": "Has your participation in any governmental or nongovernmental health program ever been suspended, placed on probation, terminated, or limited in any way?",
+        "questionDescription": null,
+        "displayOrder": 9,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 522,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": true,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["277"]
+          },
+          {
+            "id": 523,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 273,
+        "questionText": "Have your staff privileges at any hospital or healthcare facility ever been suspended, refused, revoked, placed on probation, restricted, or subject to a pending or ongoing investigation?",
+        "questionDescription": null,
+        "displayOrder": 10,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 524,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": true,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["277"]
+          },
+          {
+            "id": 525,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 274,
+        "questionText": "Have you ever been accused of sexual misconduct?",
+        "questionDescription": null,
+        "displayOrder": 11,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 526,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": true,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["277"]
+          },
+          {
+            "id": 527,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 275,
+        "questionText": "Are you aware of any circumstances that could reasonably lead to a claim or lawsuit, even if you believe it would be without merit, that have or have not been reported to your current or prior medical professional liability carrier?",
+        "questionDescription": null,
+        "displayOrder": 12,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 528,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": true,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["277"]
+          },
+          {
+            "id": 529,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 276,
+        "questionText": "Have you ever been a party to a malpractice claim, suit, or incident?",
+        "questionDescription": null,
+        "displayOrder": 13,
+        "questionType": "YES_NO",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 530,
+            "optionLabel": "Yes",
+            "optionValue": "Yes",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": true,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": ["277"]
+          },
+          {
+            "id": 531,
+            "optionLabel": "No",
+            "optionValue": "No",
+            "optionDescription": null,
+            "displayOrder": 2,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      },
+      {
+        "id": 277,
+        "questionText": "Please provide explanation",
+        "questionDescription": null,
+        "displayOrder": 14,
+        "questionType": "TEXTBOX",
+        "isRequired": true,
+        "options": [
+          {
+            "id": 532,
+            "optionLabel": "Please provide details, if applicable",
+            "optionValue": "",
+            "optionDescription": null,
+            "displayOrder": 1,
+            "isDefault": false,
+            "underwriterReviewImpact": false,
+            "impacts": [],
+            "hideQuestions": [],
+            "showQuestions": []
+          }
+        ]
+      }
+    ]
+  }
+]
