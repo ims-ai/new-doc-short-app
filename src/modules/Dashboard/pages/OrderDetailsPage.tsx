@@ -8,6 +8,8 @@ import { canDownloadPolicyDocuments } from "@/modules/Quote/utils/submission";
 import {
   downloadCOI,
   downloadBinder,
+  downloadInvoice,
+  downloadPaymentReceipt,
   downloadPolicy,
   downloadSigned,
 } from "@/modules/Payment/utils/downloads";
@@ -172,6 +174,21 @@ export default function OrderDetailsPage() {
       label: "Full policy document",
       enabled: policyIssued,
       download: () => downloadPolicy(pd.submissionid, policyIssued, setOrderDetailsError),
+    },
+    {
+      key: "invoice",
+      label: "Invoice",
+      enabled: policyIssued,
+      download: () => downloadInvoice(pd.submissionid, policyIssued, setOrderDetailsError),
+    },
+    {
+      key: "payment-receipt",
+      label: "Payment receipt",
+      // Not gated client-side — `ins` generates it on first request once
+      // payment has succeeded and answers 404/409 otherwise (same as
+      // "signed", the server decides).
+      enabled: true,
+      download: () => downloadPaymentReceipt(pd.submissionid, setOrderDetailsError),
     },
     {
       key: "signed",

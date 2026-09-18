@@ -15,6 +15,7 @@ import {
   downloadBinderPdf,
   downloadCOIPdf,
   downloadInvoicePdf,
+  downloadPaymentReceiptPdf,
   downloadPolicyPdf,
   downloadQuotePdf,
   downloadSignedPdf,
@@ -82,6 +83,30 @@ export async function downloadSigned(
       e?.response?.status === 409
         ? "Your signed document isn't available yet — it appears once you've signed your application."
         : "Could not download the signed document. Please try again.",
+    );
+  }
+}
+
+/**
+ * Payment receipt — GET /documents/{id}/payment-receipt/download. Not gated
+ * client-side: `ins` generates it on first request once payment has
+ * succeeded and answers 404 (no payment yet) / 409 (payment not settled),
+ * which map to friendly messages here (same shape as `downloadSigned`).
+ */
+export async function downloadPaymentReceipt(
+  submissionId: number | string,
+  setError?: (msg: string) => void,
+) {
+  try {
+    await downloadPaymentReceiptPdf(submissionId);
+  } catch (e: any) {
+    const status = e?.response?.status;
+    setError?.(
+      status === 404
+        ? "Your payment receipt isn't available yet — it appears once a payment has been made."
+        : status === 409
+          ? "Your payment receipt isn't available yet — the payment hasn't settled."
+          : "Could not download the payment receipt. Please try again.",
     );
   }
 }

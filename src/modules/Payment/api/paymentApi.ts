@@ -90,6 +90,9 @@ const DOCUMENT_KINDS: Record<string, { path: string; filenamePrefix: string }> =
   quote: { path: "estimate-quote/download", filenamePrefix: "quote" },
   // The completed DocuSign envelope — `ins` answers 409 until it's signed.
   signed: { path: "signed/download", filenamePrefix: "signed-document" },
+  // Generated on first request once payment has succeeded — `ins` answers
+  // 404 (no payment) / 409 (payment not settled) until then.
+  "payment-receipt": { path: "payment-receipt/download", filenamePrefix: "payment-receipt" },
 };
 
 /**
@@ -125,6 +128,8 @@ export const downloadPolicyPdf = (submissionId: SubmissionId) =>
   downloadDocumentPdf(submissionId, "policy");
 export const downloadSignedPdf = (submissionId: SubmissionId) =>
   downloadDocumentPdf(submissionId, "signed");
+export const downloadPaymentReceiptPdf = (submissionId: SubmissionId) =>
+  downloadDocumentPdf(submissionId, "payment-receipt");
 
 /**
  * POST /documents/{sid}/docusign — start (or resume) the embedded signing
