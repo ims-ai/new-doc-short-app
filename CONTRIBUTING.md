@@ -15,7 +15,11 @@ npm run dev        # http://localhost:4200
 
 ## The checks
 
-There is no CI workflow in this repo — run these locally before you push:
+CI (`.github/workflows/ci.yml`) runs Playwright e2e on every PR to `main` and
+every push to `main`; the questions-config-drift check runs alongside it
+(against `config/upstream.default.js`'s `DEFAULT_UPSTREAM_URL`, currently
+`localhost` and thus unreachable from CI) but is non-blocking. Run these
+locally before you push — CI doesn't cover them:
 
 | Command                | What it checks                                                                                           |
 | ---------------------- | -------------------------------------------------------------------------------------------------------- |

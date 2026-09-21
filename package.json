@@ -18,7 +18,11 @@
     "format:check": "prettier --check .",
     "lint:cycles": "madge --circular --extensions js,jsx,ts,tsx src",
     "lint:dead": "knip",
-    "lint:arch": "npm run lint:cycles && npm run lint:dead"
+    "lint:arch": "npm run lint:cycles && npm run lint:dead",
+    "check:questions-config-drift": "node scripts/check-questions-config-drift.mjs",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:report": "playwright show-report"
   },
   "dependencies": {
     "@sentry/react": "^10.73.0",
@@ -32,6 +36,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",
+    "@playwright/test": "^1.63.0",
     "@types/node": "^26.4.1",
     "@types/react": "^18.3.31",
     "@types/react-dom": "^18.3.7",

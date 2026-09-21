@@ -167,8 +167,13 @@ with `ACTIVE_PROFILE=dev-vishal` (workspace backend setup).
 
 ## Checks / tooling
 
-No CI workflow in this repo — run `lint` → `format:check` → `typecheck` →
-`test` → `build` → `lint:cycles` locally (+ `lint:dead` informational, with
+`.github/workflows/ci.yml` runs Playwright e2e (blocking) + the
+questions-config-drift script (non-blocking, `continue-on-error`, using
+`config/upstream.default.js`'s `DEFAULT_UPSTREAM_URL` — currently `localhost`,
+so unreachable from CI until this repo has a real one on file like Q2BNfy's)
+on PRs to `main` and pushes to `main`. It does not run
+`lint` / `format:check` / `typecheck` / `test` / `build` / `lint:cycles` —
+run those locally before you push (+ `lint:dead` informational, with
 `KNIP_DISABLE_RAW_TRANSFER=1` on this machine). ESLint 9 flat config,
 `--max-warnings=0`, every `eslint-disable` carries `-- <reason>`. Prettier
 `printWidth: 100`. `useStore` selectors return a primitive / stable ref, or a
